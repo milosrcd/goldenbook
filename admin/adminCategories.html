@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <!--Only for icons-->
+    <script src="https://kit.fontawesome.com/9e5baa23be.js" crossorigin="anonymous"></script>
+    <title>Golden Book</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Golden Book</h1>
+        </div>
+        <button class="avatar"><i class="fa-regular fa-user"></i></button>
+    </header>
+    <nav>
+        <h3><a href="/log/homepage.html">HOME PAGE</a></h3>
+        <h3>CATEGORIES</h3>
+        <ul class="sidebar" style="list-style: none;">
+            <li><a href="#">General</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Fantasy</a></li>
+            <li><a href="#">Literary</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+        <h3>ADMIN</h3>
+        <ul class="sidebar" style="list-style: none;">
+            <li><a href="/admin/adminBooks.html">Books</a></li>
+            <li><a href="/admin/adminCategories.html">Categories</a></li>
+        </ul>
+    </nav>
+    <div>
+        <h2><strong>Categories</strong></h2>
+    </div>
+    <section>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <article>
+                        <h1>Category Name:</h1>
+                        <p>General</p><span>&#9998; </span><span>&#128465;</span>
+                    </article>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <article>
+                        <h1>Category Name:</h1>
+                        <p>History</p><span>&#9998; </span><span>&#128465;</span>
+                    </article>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <article>
+                        <h1>Category Name:</h1>
+                        <p>Fantasy</p><span>&#9998; </span><span>&#128465;</span>
+                    </article>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <article>
+                        <h1>Category Name:</h1>
+                        <p>Literary</p><span>&#9998; </span><span>&#128465;</span>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <button type="button"><a href="/admin/addcategory.html">ADD NEW Category</a></button>
+        <div class="pagination_section">
+            <p>Rows per page:</p>
+            <select>
+                <option><a href="#">6</a></option>
+                <option><a href="#">12</a></option>
+                <option><a href="#">24</a></option>
+                <option><a href="#">all</a></option>
+            </select>
+            <a href="#">&lt;</a>
+            <a href="#">&gt;</a>
+        </div>
+    </section>
+    <footer>
+        <p>Orion Innovation - Angular workshoop 2022 &#169</p>
+    </footer>
+</body>
+
+</html>
