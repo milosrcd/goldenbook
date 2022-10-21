@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" />
     <title>Golden Book</title>
@@ -10,29 +11,28 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <h1>Golden Book</h1>
+    <section class="header">
+        <nav>
+            <a href="index.html" class="logo">Goolden Book.</a>
+            <div class="nav-links">
+                <ul class="li">
+                    <li><a href="logPages/login.html" class="log-btn">login</a></li>
+                    <li><a href="logPages/singup.html" class="sig-btn">signup</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="text-box">
+            <p>"If you dont like to read, you<br> haven't found the right book."
+                <span>J.K. Rowling</span>
+            </p>
+            <h1>Find Your Inspiration</h1>
+            <a href="logPages/singup.html" class="hero-btn">SIGN UP</a>
         </div>
-        <div>
-            <nav>
-                <button class="btn logIn" onclick="location.href='logPages/login.html'">Login</button>
-                <button class="btn signUp" onclick="location.href='logPages/singup.html'">Sign up</button>
-                </a>
-            </nav>
-        </div>
-    </header>
-    <div class="section">
-        <div class="right-div">
-            <p>If you don't like to read, you haven't found the right book.</p>
-            <span>J.K. Rowling</span>
-            <h2>Find your inspiration</h2>
-            <button class="btn" onclick="location.href='logPages/singup.html'">Sign Up</button>
-        </div>
-    </div>
-    <footer class="footer">
-        <p class="footerText">Orion Innovation - Angular workshoop 2022 &#169</p>
-    </footer>
+        <footer class="footer">
+            <p class="footerText">Orion Innovation - Angular workshoop 2022 &#169</p>
+        </footer>
+    </section>
 </body>
 
 </html>
