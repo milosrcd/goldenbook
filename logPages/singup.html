@@ -4,41 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
     <title>Golden Book</title>
 
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <h1>Golden Book</h1>
+    <section class="header">
+        <nav>
+            <a href="index.html" class="logo">Goolden Book.</a>
+        </nav>
+
+        <div class="input-box">
+            <div class="sigH1">
+                <h1>Sign UP</h1>
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Email" required />
+            </div>
+            <div class="form-group">
+                <label id="password-label" for="password"></label>
+                <input type="password" name="password" id="password" placeholder="Password" required />
+                <p class="sgnUp">Already have an account? <a href="/logPages/login.html">Log In</a></p>
+            </div>
+            <a href="/bookPages/homepage.html" class="hero-btn">SIGN UP</a>
         </div>
-    </header>
-    <section>
-        <div>
-            <div class="left-div">
-                <img src="" alt="Book image">
-            </div>
-            <div class="right-div">
-                <div class="form-group">
-                    <label id="email-label" for="email"></label>
-                    <input type="email" name="email" id="email" placeholder="Email" required />
-                </div>
-                <div class="form-group">
-                    <label id="password-label" for="password"></label>
-                    <input type="password" name="password" id="password" placeholder="Password" required />
-                </div>
-                <p>Already have an account? <a href="/logPages/login.html">Log in</a></p>
-            </div>
-            <div>
-                <button onclick="" type="submit" id="sign-up"><a href="/bookPages/homepage.html">SIGN UP</a></button>
-            </div>
-        </div>
+        <footer class="footer">
+            <p class="footerText">Orion Innovation - Angular workshoop 2022 &#169</p>
+        </footer>
     </section>
-    <footer>
-        <p>Orion Innovation - Angular workshoop 2022 &#169</p>
-    </footer>
+
 </body>
 
 </html>

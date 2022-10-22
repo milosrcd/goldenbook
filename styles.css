@@ -17,7 +17,7 @@
     background: var(--black);
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(90deg, rgba(242, 239, 220, 0) 50%, rgba(242,239,220,0.3) 90%), url(/images/Signupbackground.jpg);
+    background-image: linear-gradient(90deg, rgba(242, 239, 220, 0) 50%, rgba(242, 239, 220, 0.3) 90%), url(/images/Signupbackground.jpg);
     background-position: 10% 30%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -81,7 +81,7 @@ nav {
     text-align: end;
 }
 
-.input-box{
+.input-box {
     width: 90%;
     position: absolute;
     top: 50%;
@@ -89,14 +89,24 @@ nav {
     transform: translate(-50%, -50%);
     text-align: end;
 }
-.logH1{
+
+.logH1 {
     text-align: end;
     transform: translate(-16%);
     margin-bottom: 50px;
     color: var(--beige);
     font-size: 48px;
 }
-#email{
+
+.sigH1 {
+    text-align: end;
+    transform: translate(-11%);
+    margin-bottom: 50px;
+    color: var(--beige);
+    font-size: 48px;
+}
+
+#email {
     width: 400px;
     height: 56px;
     margin-bottom: 40px;
@@ -104,7 +114,7 @@ nav {
     border-radius: 4px 4px 0 0;
 }
 
-#password{
+#password {
     width: 400px;
     height: 56px;
     margin-bottom: 10px;
@@ -112,12 +122,13 @@ nav {
     border-radius: 4px 4px 0 0;
 }
 
-.sgnUp{
+.sgnUp {
     margin-bottom: 50px;
     color: var(--beige);
 }
-.sgnUp a{
-    text-decoration: none;
+
+.sgnUp a {
+    text-decoration: underline;
     color: var(--beige);
 }
 
@@ -131,7 +142,7 @@ nav {
     color: var(--beige);
 }
 
-.log-btn{
+.log-btn {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -147,13 +158,14 @@ nav {
     width: 88px;
     height: 36px;
 }
-.log-btn:hover{
+
+.log-btn:hover {
     color: var(--darkbrown);
     background-color: var(--beige);
     border: 1px solid var(--beige);
 }
 
-.sig-btn{
+.sig-btn {
     display: flex;
     flex-direction: column;
     justify-content: center;
