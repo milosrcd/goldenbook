@@ -48,24 +48,7 @@ nav {
 .nav-links ul li {
     list-style: none;
     display: inline-block;
-    /* padding: 8px 12px;
-    position: relative; */
 }
-
-/* .nav-links ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.nav-links ul li::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #f44336;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-} */
 
 .nav-links ul li:hover::after {
     width: 100%;
@@ -198,12 +181,6 @@ nav {
     height: 62px;
 }
 
-/* .hero-btn:hover {
-    border: 1px solid #f44336;
-    background: #f44336;
-    transition: 1s;
-} */
-
 .footer {
     position: absolute;
     bottom: 0;
@@ -214,90 +191,22 @@ nav {
     color: var(--beige);
 }
 
-/* html {
-    background-color: black;
-}
-
-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px 20px 20px 20px;
-    margin: 10px 10px 10px 30px;
-}
-
-nav{
-    margin-left: 260px;
-}
-
-.logo {
-    color: #F2EFDC;
-}
-
-.btn {
+.grid-container {
+    display: grid;
     border: none;
-    background-color: #F2EFDC;
-    color: black;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 4px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
 }
 
-.logIn {
-    border: none;
-    color: black;
-    border-radius: 4px;
-    background-color: transparent;
-}
-
-.logIn:hover {
-    background-color: #F2EFDC;
-    color: black;
-    border-radius: 4px;
-}
-
-.signUp {
-    border: none;
-    color: black;
-    border-radius: 4px;
-    background-color: #F2EFDC;
-}
-
-
-
-.section div {
-    width: 50%;
-    padding: 80px;
-    text-align: end;
-    color: #F2EFDC;
-}
-
-.right-div {
-    margin-right: 150px;
-    float: right;
-}
-
-.footer {
-    margin-left: 950px;
-    position: absolute;
-    bottom: 0;
-    padding: 20px 10px;
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
     text-align: center;
-    color: #F2EFDC;
 }
 
-.backround {
-    min-height: 100vh;
+.bookItem{
+    background-color: var(--beige);
     border-radius: 4px;
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    margin: 10px 10px 10px 10px;
-    z-index: -1;
-    background-image: url('images/Signupbackground.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
+    width: 398px;
+    height: 292px;
+}
