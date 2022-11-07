@@ -42,12 +42,12 @@
  */
 
     add.addEventListener('click', function(e){
-        const title = getElementById('title').value;
-        const author = getElementById('author').value;
-        const year = getElementById('year').value;
-        const category = getElementById('category').value;
-        const isbn = getElementById('isbn').value;
-        const description = getElementById('description').value;
+        const title = document.getElementById('title').value;
+        const author = document.getElementById('author').value;
+        const year = document.getElementById('year').value;
+        const category = document.getElementById('category').value;
+        const isbn = document.getElementById('isbn').value;
+        const description = document.getElementById('description').value;
 
         let book = new Book(title, author, year, category, isbn,  description);
         publicLibrary.addbook(book);
