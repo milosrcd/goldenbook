@@ -1,5 +1,4 @@
-    let get = document.getElementById('get');
-    let add = document.getElementById('add-book');
+    let add = document.getElementById('addbook')
 
 
     function Book(title, author, year, category, isbn, description) {
@@ -53,4 +52,5 @@
         let book = new Book(title, author, year, category, isbn,  description);
         publicLibrary.addbook(book);
         publicLibrary.render(book);
+        console.log(book);
     });
