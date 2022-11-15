@@ -13,34 +13,30 @@
     <section class="header">
         <nav>
             <a href="index.html" class="logo">Goolden Book.</a>
-            <!-- <div class="nav-links">
-                <ul class="li">
-                    <li><a href="logPages/login.html" class="log-btn">login</a></li>
-                    <li><a href="logPages/singup.html" class="sig-btn">signup</a></li>
-                </ul>
-            </div> -->
         </nav>
 
-        <div class="input-box">
+        <form class="input-box" action="/bookPages/homepage.html" id="inputForm">
             <div class="logH1">
                 <h1>Login</h1>
             </div>
             <div class="form-group">
                 <label id="email-label" for="email"></label>
                 <input type="email" name="email" id="email" placeholder="Email" required />
+                <p class="errorMessage">email must be in valid format.</p>
             </div>
             <div class="form-group">
                 <label id="password-label" for="password"></label>
                 <input type="password" name="password" id="password" placeholder="Password" required />
                 <p class="sgnUp">Don't have an account? <a href="/logPages/singup.html">Sign up</a></p>
+                <p class="errorMessage">password must be in valid format.</p>
             </div>
-            <a href="/bookPages/homepage.html" class="hero-btn">LOGIN</a>
-        </div>
+            <input type="button" value="Login" id="programSubmit" class="hero-btn">
+        </form>
         <footer class="footer">
             <p class="footerText">Orion Innovation - Angular workshoop 2022 &#169</p>
         </footer>
     </section>
-    
+    <script src="/assets/js/user.js"></script>
 </body>
 
 </html>

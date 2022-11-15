@@ -50,8 +50,8 @@
                             <th>Author</th>
                             <th>Year</th>
                             <th>Category</th>
-                            <th>Description</th>
                             <th>ISBN</th>
+                            <th>Description</th>
                             <th>Reviewer / Review</th>
                             <th>Go to Book Overview</th>
                         </tr>
@@ -59,91 +59,7 @@
                     <!--titles for rows-->
                     <tbody id="book-list"></tbody>
 
-                    <!-- <thead>
-                        <tr>
-                            <td id="img-src"><img src="" alt="img"></td>
-                            <td id="book">Money Power</td>
-                            <td id="author">Author Name</td>
-                            <td id="year">2017</td>
-                            <td id="category">General, History</td>
-                            <td id="readmore"><a href="">Read more</a></td>
-                            <td id="isbn">12345678</td>
-                            <td id="review">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has
-                                been the
-                                industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                                galley
-                                of type
-                                and scrambled it to make a type specimen book.
-                            </td>
-                            <td td="overview"><img src="" alt="icon"></td>
-                        </tr>
-                    </thead> -->
-                    <!-- <tr>
-                        <td><img src="" alt="img"></td>
-                        <td>Money Power</td>
-                        <td>Author Name</td>
-                        <td>2017</td>
-                        <td>General, History</td>
-                        <td><a href="">Read more</a></td>
-                        <td>12345678</td>
-                        <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the
-                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                            of type
-                            and scrambled it to make a type specimen book.
-                        </td>
-                        <td><img src="" alt="icon"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="" alt="img"></td>
-                        <td>Money Power</td>
-                        <td>Author Name</td>
-                        <td>2017</td>
-                        <td>General, History</td>
-                        <td><a href="">Read more</a></td>
-                        <td>12345678</td>
-                        <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the
-                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                            of type
-                            and scrambled it to make a type specimen book.
-                        </td>
-                        <td><img src="" alt="icon"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="" alt="img"></td>
-                        <td>Money Power</td>
-                        <td>Author Name</td>
-                        <td>2017</td>
-                        <td>General, History</td>
-                        <td><a href="">Read more</a></td>
-                        <td>12345678</td>
-                        <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the
-                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                            of type
-                            and scrambled it to make a type specimen book.
-
-                        </td>
-                        <td><img src="" alt="icon"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="" alt="img"></td>
-                        <td>Money Power</td>
-                        <td>Author Name</td>
-                        <td>2017</td>
-                        <td>General, History</td>
-                        <td><a href="">Read more</a></td>
-                        <td>12345678</td>
-                        <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the
-                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                            of type
-                            and scrambled it to make a type specimen book.
-                        </td>
-                        <td><img src="" alt="icon"></td>
-                    </tr> -->
+                    
                 </table>
                 <!-- modal for adding a new book-->
                 <button class="trigger">Add A New Book</button>
@@ -154,7 +70,7 @@
 
                         <div class="modal-div">
                             <label for="imageUrl">Image Url</label>
-                            <input type="image" id="imgUrl" placeholder="Image URL" name="imgUrl" required>
+                            <input type="text" id="imgUrl" name="imgUrl" required>
                             <label for="title">Title</label>
                             <input type="text" id="title" placeholder="Title" name="title" required>
                             <label for="author">Author</label>
@@ -168,7 +84,7 @@
                             <input type="number" id="isbn" placeholder="isbn" name="isbn" required>
                             <label for="description">Description</label>
                             <textarea id="description" name="description" placeholder="description"></textarea required>        
-                            <button>CANCEL</button><button id="addbook">SAVE</button>
+                            <button>CANCEL</button><button id="add">SAVE</button>
                         </div>
                     </div>
                 </div>
